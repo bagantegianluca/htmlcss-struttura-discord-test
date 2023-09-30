@@ -14,11 +14,11 @@
     margin: 0 auto;
 }
 
-.jc-sp{
+.justify-content-between{
     justify-content: space-between;
 }
 
-ul.no-b{
+ul.list-unstyled{
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
@@ -42,5 +42,10 @@ ul.no-b{
 .debug .banner{
     height: 550px;
     background: #ffe600;
+}
+
+.debug section div.cnt{
+    height: 800px;
+    background: #00a9ff;
 }
 /* #endregion debug */
