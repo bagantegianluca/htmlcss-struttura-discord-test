@@ -22,33 +22,39 @@ ul.list-unstyled{
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
-  }
+}
 
-  .h100{
-    height: 100%;
-  }
+.h100{
+height: 100%;
+}
 
-  .pad-10{
-    padding: 10px;
-  }
+.pad-10{
+padding: 10px;
+}
 
-  .col-05{
-    width: calc((100 / 12) * 5);
-  }
+.col-05{
+width: calc((100% / 12) * 5);
+}
 
-  .col-07{
-    width: calc((100 / 12) * 7);
-  }
+.col-07{
+width: calc((100% / 12) * 7);
+}
 
-  .flex-cnt{
-    display: flex;
-  }
+.flex-cnt{
+display: flex;
+}
 
-  .row{
-    display: flex;
-    align-items: center;
-    width: 100%;
-  }
+.row{
+display: flex;
+align-items: center;
+width: 100%;
+}
+
+.flex-center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 /* #endregion utility */
 
 /* #region debug */
@@ -81,7 +87,7 @@ ul.list-unstyled{
     border: 1px solid black;
 }
 
-.debug [class^="col"]{
+.debug img, .debug .text p{
     height: 720px;
     background: #036597;
     border: 1px solid black;
@@ -95,6 +101,11 @@ ul.list-unstyled{
 
 .banner {
     background-image: url('');
+}
+
+.cnt-banner{
+    width: 60%;
+    flex-direction: column;
 }
 /* #endregion header */
 
