@@ -39,4 +39,8 @@ ul.no-b{
     background: #ffd200;
 }
 
+.debug .banner{
+    height: 550px;
+    background: #ffe600;
+}
 /* #endregion debug */
