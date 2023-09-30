@@ -33,19 +33,43 @@ ul.list-unstyled{
 .debug #header{
     height: 80px;
     background: #ff2500;
+    border: 1px solid black;
 }
 
 .debug .cnt{
     background: #ffd200;
+    border: 1px solid black;
 }
 
 .debug .banner{
     height: 550px;
     background: #ffe600;
+    border: 1px solid black;
 }
 
 .debug section div.cnt{
     height: 800px;
     background: #00a9ff;
+    border: 1px solid black;
+}
+
+.debug .banner-bottom{
+    height: 1400px;
+    background: #00a9ff;
+    border: 1px solid black;
 }
 /* #endregion debug */
+
+/* #region header */
+.banner {
+    background-image: url('');
+}
+/* #endregion header */
+
+/* #region main */
+
+/* #endregion main */
+
+/* #region footer */
+
+/* #endregion footer */
