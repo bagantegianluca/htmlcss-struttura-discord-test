@@ -1,0 +1,42 @@
+/* #region common */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion common */
+
+/* #region utility */
+.cnt{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.jc-sp{
+    justify-content: space-between;
+}
+
+ul.no-b{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  .h100{
+    height: 100%;
+  }
+/* #endregion utility */
+
+/* #region debug */
+.debug #header{
+    height: 80px;
+    background: #ff2500;
+}
+
+.debug .cnt{
+    background: #ffd200;
+}
+
+/* #endregion debug */
